@@ -5,10 +5,8 @@ package HotelReservationProgram;
 public class HotelReservation {
 	
 	
-	public void printWelcomeMessage() {
-        System.out.println("Welcome to Hotel reservation problem");
-    }
 	
+	// Method to add hotels details with name and rates for regular customer
 	public Hotel addHotel(String hotelName, int weekDayRate, int weekendRate) {
         return new Hotel(hotelName, weekDayRate, weekendRate);
     }
